@@ -28,7 +28,7 @@ jobs:
 
       - name: Clone repo
         run: |
-          git clone https://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@github.com/ZyamHunter/furia-base.git
+          git clone https://${{ secrets.TOKEN }}@github.com/ZyamHunter/furia-base.git
       
       - name: Execute file
         run: |
